@@ -1,0 +1,51 @@
+[
+  {
+    "model": "fine-tuned",
+    "type": "finetuned",
+    "wer": 20.53,
+    "cer": 7.3,
+    "elapsed": 40.5
+  },
+  {
+    "model": "openai/whisper-tiny",
+    "type": "whisper",
+    "wer": 87.67,
+    "cer": 34.2,
+    "elapsed": 29.7
+  },
+  {
+    "model": "openai/whisper-base",
+    "type": "whisper",
+    "wer": 62.61,
+    "cer": 23.69,
+    "elapsed": 31.2
+  },
+  {
+    "model": "openai/whisper-small",
+    "type": "whisper",
+    "wer": 46.3,
+    "cer": 17.72,
+    "elapsed": 43.3
+  },
+  {
+    "model": "openai/whisper-medium",
+    "type": "whisper",
+    "wer": 35.56,
+    "cer": 14.43,
+    "elapsed": 70.8
+  },
+  {
+    "model": "openai/whisper-large-v3",
+    "type": "whisper",
+    "wer": 31.11,
+    "cer": 12.22,
+    "elapsed": 110.2
+  },
+  {
+    "model": "elevenlabs",
+    "type": "elevenlabs",
+    "wer": 27.13,
+    "cer": 9.4,
+    "elapsed": 103.6
+  }
+]
